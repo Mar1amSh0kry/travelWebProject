@@ -1,0 +1,169 @@
+
+.pages-links{
+    margin-top: 15px;
+}
+.page{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.city{
+    border: solid 1px #aaa;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 10px 2px;
+    border-radius: 10px;
+}
+
+img,.web-site{
+    width: 300px;
+}
+
+img{
+    height: 220px;
+    border-radius: 8px;
+}
+
+.city div {
+    margin-top: 5px;
+}
+
+.web-site{
+    text-align: center;
+    background-color: rgba(68, 42, 211, 0.788);
+    border-radius: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    line-height: 100px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color:black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#cont > a,
+.head > a {
+    margin: 15px 10px;
+}
+
+
+#form, .payment-form {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+#form h2, .payment-form h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+#head, .head {
+    background-color: #070707;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    a {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+}
